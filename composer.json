@@ -1,0 +1,64 @@
+{
+  "name": "prevailexcel/laravel-bani",
+  "description": "A Laravel Package for Bani",
+  "keywords": [
+    "Bani",
+    "Fiat Payments",
+    "paystack alternative",
+    "crypto payments",
+    "BANI payments",
+    "fiat payments",
+    "crypto payments",
+    "payment gateway",
+    "online payments",
+    "digital currency",
+    "cryptocurrency",
+    "financial transactions",
+    "payment processing",
+    "blockchain payments",
+    "digital payments",
+    "financial technology",
+    "crypto integration",
+    "payment solutions",
+    "php",
+    "github",
+    "laravel",
+    "Open Source",
+    "payments",
+    "crypto",
+    "laravel 6",
+    "laravel 7",
+    "laravel 8",
+    "laravel 9",
+    "laravel 10"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "utils/helpers/bani.php"
+    ],
+    "psr-4": {
+      "PrevailExcel\\Bani\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Chimeremeze Prevail Ejimadu",
+      "email": "prevailexcellent@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PrevailExcel\\Bani\\BaniServiceProvider"
+      ],
+      "aliases": {
+        "Bani": "PrevailExcel\\Bani\\Facades\\Bani"
+      }
+    }
+  }
+}
